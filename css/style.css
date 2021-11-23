@@ -1,0 +1,61 @@
+/*
+Assignment: Homework4 - Part1: Validation Plugin
+Name: Alvin Tran
+Contact Information: Alvin_Tran@student.uml.edu
+Date: 11/22/2021
+Resources Used: https://jqueryvalidation.org/
+*/
+
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 600px;
+    overflow: hidden;
+}
+
+p {
+    text-align: center;
+}
+
+.form_container {
+    float: left;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 125px;
+    border: 5px solid beige;
+    padding: 40px;
+}
+
+.error {
+    color: darkred;
+    text-align: center;
+}
+
+input[type=button] {
+    background-color: beige;
+}
+
+.table_container {
+    max-height: 650px; /* contain the table with a maximum height of 650px */
+    max-width: 650px; /* contain the table with a maximum width of 650px */
+    overflow: auto;  /* overflow is set to auto so that a scrollbar will be created when needed */
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: right;
+    padding-left: 10px;
+}
+
+th {
+    border: 3px solid black;
+    background: beige;
+    position: sticky;  /* sticky is used so that the table header stays put when scrolling the table*/
+    top: 0;  /* top must be set to 0 to use sticky on the first row table headers */
+    left: 0; /* left must be set to 0 to use sticky on the first column table headers */
+}
